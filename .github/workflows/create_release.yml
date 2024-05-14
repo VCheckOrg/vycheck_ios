@@ -1,0 +1,57 @@
+name: Create Release
+
+on:
+  push:
+    branches:
+      - release
+
+jobs:
+  create_release:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Get Latest Tag
+      id: get_tag
+      run: |
+        LAST_TAG=$(git tag --sort=-version:refname | head -n 1)
+        echo "Latest tag: $LAST_TAG"
+        echo "TAG=$LAST_TAG" >> $GITHUB_ENV
+
+    - name: Delete Latest Release
+      id: delete_release
+      run: |
+        RELEASE_ID=$(curl -L \
+          -H "Accept: application/vnd.github+json" \
+          -H "Authorization: Bearer $GITHUB_TOKEN" \
+          -H "X-GitHub-Api-Version: 2022-11-28" \
+          "https://api.github.com/repos/$OWNER/$REPO/releases/latest" | \
+          jq -r .id)
+        curl -X DELETE -L \
+          -H "Accept: application/vnd.github+json" \
+          -H "Authorization: Bearer $GITHUB_TOKEN" \
+          -H "X-GitHub-Api-Version: 2022-11-28" \
+          "https://api.github.com/repos/$OWNER/$REPO/releases/$RELEASE_ID"
+      shell: bash
+      env:
+        GITHUB_TOKEN: ${{ secrets.CREATE_RELEASE_TOKEN }}
+        OWNER: vcheckorg
+        REPO: vycheck_ios
+
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1.1.4
+      env:
+        GITHUB_TOKEN: ${{ secrets.CREATE_RELEASE_TOKEN }}
+      with:
+        tag_name: ${{ env.TAG }}
+        release_name: Release ${{ env.TAG }}
+        body: |
+          Automatic release created by GitHub Actions.
+        draft: false
+        prerelease: false
+
