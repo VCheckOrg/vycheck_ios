@@ -1,0 +1,147 @@
+"enter_valid_dob" = "Enter DOB in format 'YYYY-MM-DD'";
+
+"enter_valid_doc_number" = "Enter valid document number";
+
+"enter_valid_name" = "Enter valid name";
+
+"enter_valid_surname" = "Enter valid surname";
+
+"error_make_at_least_one_photo" = "Please make at least one photo of the document";
+
+"error_make_one_photo" = "Please make one photo of the document";
+
+"error_make_two_photos" = "Please make all required photos of the document";
+
+"error_some_fields_are_empty" = "Please fill all empty document fields";
+
+"line_face_obstacle" = "Hold phone at eye level";
+
+"liveness_stage_check_face_pos" = "Hold phone at eye level";
+
+"liveness_stage_face_left" = "Turn your head to the left";
+
+"liveness_stage_face_right" = "Turn your head to the right";
+
+"liveness_stage_face_up" = "Lift your head up";
+
+"liveness_stage_face_down" = "Put your head down";
+
+"liveness_stage_open_mouth" = "Open your mouth";
+
+"liveness_stage_blink_eyes" = "Blink your eyes";
+
+"photo_loaing_wait_discl" = "Please, wait. The photo of your document is being loaded and processed. This may take from a few seconds to a minute.";
+
+"photo_upload_title_common_back" = "Photo of the last page / side with your photo (if you have multiple photos in the document)";
+
+"photo_upload_title_common_forward" = "Photo of the first page / side of the document (with your photo)";
+
+"photo_upload_title_foreign" = "Full spread of the document with your photo";
+
+"photo_upload_title_id_card_back" = "Back side of the ID card";
+
+"photo_upload_title_id_card_forward" = "Front side of the ID card";
+
+"no_search_data_label" = "No data available";
+"confident_in_doc_title" = "I am confident in my document, continue the verification process";
+
+"doc_date_placeholder" = "YYYY-MM-DD";
+
+"non_available" = "Non available";
+
+"bermuda" = "Bermuda";
+
+"invalid_doc_type_desc" = "Document compliance check failed. Please, download the correct document";
+"verif_error_desc" = "Document verification is not successful";
+
+"check_doc_fields_input_message" = "Some document fields are not properly filled or empty";
+
+"need_camera_access_title" = "Need Camera Access";
+"need_camera_access_descr" = "Camera access is required for taking document photos and performing face-checking sessions.";
+"allow" = "Allow";
+"decline" = "Decline";
+
+"declined_camera_access" = "Camera access is declined: that will make the major product features unavailable. To allow Camera acess, re-launch app or go to Settings.";
+
+"proceed" = "Proceed";
+
+"seg_make_photo" = "Take a photo";
+
+"segmentation_instr_inner_passport_title"="Take a photo of your passport";
+"segmentation_instr_foreign_passport_title"="Take a photo of your foreign passport";
+"segmentation_instr_id_card_title"="Take a photo of your ID card";
+
+"segmentation_instr_inner_passport_descr"="Follow the on-screen instructions to take a full-page photo of your passport (both pages visible)";
+"segmentation_instr_foreign_passport_descr"="Following the instructions on the screen, take a photo of a full-page spread of your passport (both pages are visible)";
+"segmentation_instr_id_card_descr"="Follow the on-screen instructions to take a photo of the front and then the back of your ID card";
+
+"segmentation_general_instruction"="Prepare your document and place it in the specified zone as in the example above.";
+"im_ready"="I'm ready";
+
+"segmentation_single_page_hint"="Put the document in the specified zone for automatic reading";
+"segmentation_front_side_hint"="Place the front side of the document in the specified zone for automatic reading";
+"segmentation_back_side_hint"="Place the back side of the document in the specified zone for automatic reading";
+"segmentation_stage_success"="Document scanned successfully!";
+
+"no_time_seg_title"="The time to take document photo(s) has expired";
+"no_time_seg_descr"="We could not find the document in the given zone. Make sure you have selected the correct document type and that it's clearly visible in the camera.";
+"segmentation_stage_success_first_page"="Front side scanned successfully. Please turn over the document/page.";
+
+"make_photo_by_hand" = "Make photo by hand";
+"retry" = "Retry";
+
+"pop_sdk_title" = "To verification start";
+
+"cancel" = "Cancel";
+
+"fatal_error_seg_descr"="We were unable to do a full scan of the document. To continue, you need to take a photo manually.";
+
+"contact_support" = "Contact support";
+
+"confirm" = "Confirm";
+
+"got_it" = "Excellent!";
+"verification_in_process_title"="Your application is already processing";
+"verification_in_process_subtitle"="This may take some time.";
+
+"good_camera_text"="filmed with a good camera";
+"good_doc_light_text"="well lit";
+
+"enter_valid_exp_date"="Enter a valid expiration date of your document";
+
+"choose_provider_title" = "Choose a verification method";
+"choose_provider_description" = "To proceed with verification, choose the provider from the list of available for your country.";
+"vcheck_provider_description" = "Verification with document upload";
+
+"verification_expired" = "Verification session expired. Please, try again.";
+
+"doc_verif_camera_timeout_title" = "We weren't able to locate your document";
+"doc_verif_camera_timeout_text" = "We could not find your document in time. Make sure you have selected the correct document type and that it is clearly visible on the camera.";
+"doc_verif_not_scanned_title" = "Could not scan document";
+"doc_verif_not_scanned_text" = "If you have problems scanning a document, we advise you to pass verification on another device with a good camera. You can also try to take a manual photo of your document (without auto-detection of the framed document)";
+"doc_verif_invalid_document_type_title" = "Document verification is not successful";
+"doc_verif_invalid_document_type_text" = "The document does not match the selected type. We recommend to re-upload the document.";
+"doc_verif_invalid_pages_count_title" = "Document verification is not successful";
+"doc_verif_invalid_pages_count_text" = "Incorrect number of loaded images. Reload the document.";
+"doc_verif_invalid_files_title" = "Document verification is not successful";
+"doc_verif_invalid_files_text" = "The uploaded photos of document are too large or have the wrong file type. Please, try again.";
+"doc_verif_primary_already_exists_title" = "Another document has already been uploaded";
+"doc_verif_primary_already_exists_text" = "There is no possibility to upload several documents within one verification. Continue checking the data on the previously uploaded document";
+"doc_verif_upload_attempts_exceeded_title" = "Another document has already been uploaded";
+"doc_verif_upload_attempts_exceeded_text" = "There is no possibility to upload several documents within one verification. Continue checking the data on the previously uploaded document";
+"doc_verif_invalid_page_title" = "Document verification is not successful";
+"doc_verif_invalid_page_text" = "Document compliance check failed. Please, download the correct document";
+"doc_verif_fraud_title" = "Photo from screen detected";
+"doc_verif_fraud_text" = "To pass verification, you must upload a photo of the original document";
+"doc_verif_blur_title" = "Blurred photo";
+"doc_verif_blur_text" = "Please take a clear picture of the document to continue";
+"doc_verif_default_title" = "Document verification is not successful";
+"doc_verif_default_text" = "For some reason, we were unable to download the content of this page. Try reloading the page.";
+"doc_verif_print_title" = "Copy detected";
+"doc_verif_print_text" = "Please upload the original of your document";
+
+"in_process_title" = "Please, wait";
+"in_process_description" = "This may take some time";
+
+/* Default action */
+"OK" = "";

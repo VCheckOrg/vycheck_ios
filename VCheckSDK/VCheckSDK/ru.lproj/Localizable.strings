@@ -1,0 +1,163 @@
+"enter_valid_dob" = "Введите дату рождения в формате 'ГГГГ-ММ-ДД'";
+
+"enter_valid_doc_number" = "Введите валидный номер документа";
+
+"enter_valid_name" = "Введите валидное имя";
+
+"enter_valid_surname" = "Введите валидную фамилию";
+
+"error_make_at_least_one_photo" = "Пожалуйста, сделайте как минимум одно фото документа";
+
+"error_make_one_photo" = "Пожалуйста, сделайте одно фото документа";
+
+"error_make_two_photos" = "Пожалуйста, сделайте все необходимые фото документа";
+
+"error_some_fields_are_empty" = "Пожалуйста, заполните все поля документа";
+
+"line_face_obstacle" = "Держите телефон на уровне глаз";
+
+"liveness_stage_check_face_pos" = "Держите телефон на уровне глаз";
+
+"liveness_stage_face_left" = "Поверните голову влево";
+
+"liveness_stage_face_right" = "Поверните голову вправо";
+
+"liveness_stage_face_up" = "Поднимите голову вверх";
+
+"liveness_stage_face_down" = "Наклоните голову вниз";
+
+"liveness_stage_open_mouth" = "Откройте рот";
+
+"liveness_stage_blink_eyes" = "Моргните глазами";
+
+"photo_loaing_wait_discl" = "Пожалуйста, подождите. Идет загрузка и обработка фото вашего документа. Это может занять от нескольких секунд до минуты.";
+
+"photo_upload_title_common_back" = "Фотография последней страницы/стороны с вашей фотографией (если у вас несколько фотографий в документе)";
+
+"photo_upload_title_common_forward" = "Фотография первой страницы/стороны документа (с вашим фото)";
+
+"photo_upload_title_foreign" = "Полный разворот документа с вашим фото";
+
+"photo_upload_title_id_card_back" = "Задняя сторона ID-карты";
+
+"photo_upload_title_id_card_forward" = "Передняя сторона ID-карты";
+
+"no_search_data_label" = "Нет данных";
+
+"confident_in_doc_title" = "Я уверен(-а) в своем документе, продолжить процесс верификации";
+
+"doc_date_placeholder" = "ГГГГ-ММ-ДД";
+
+"non_available" = "Недоступно";
+
+"bermuda" = "Бермудские Острова";
+
+"invalid_doc_type_desc" = "Не пройдена проверка соответствия данных документа. Пожалуйста, загрузите корректный документ";
+"verif_error_desc" = "Верификация документа неуспешна";
+
+"check_doc_fields_input_message" = "Проверте правильность заполнения всех полей документа";
+
+"need_camera_access_title" = "Доступ к Камере";
+"need_camera_access_descr" = "Необходимо предоставить доступ к камере для фотографирования документов и проведения сеансов проверки лица.";
+"allow" = "Позволить";
+"decline" = "Запретить";
+
+"declined_camera_access" = "Доступ к камере отклонен: это сделает недоступными основные функции продукта. Чтобы разрешить доступ к камере, перезапустите приложение или перейдите в Системные Настройки.";
+
+"proceed" = "Продолжить";
+
+"seg_make_photo" = "Сделать фото";
+
+"segmentation_instr_inner_passport_title"="Сделайте фото паспорта";
+"segmentation_instr_foreign_passport_title"="Сделайте фото загранпаспорта";
+"segmentation_instr_id_card_title"="Сделайте фото ID-карты";
+
+"segmentation_instr_inner_passport_descr"="Следуя инструкциям на экране, сделайте фото полного разворота паспорта (видны обе страницы)";
+"segmentation_instr_foreign_passport_descr"="Следуя инструкциям на экране, сделайте фото полного разворота загранпаспорта (видны обе страницы)";
+"segmentation_instr_id_card_descr"="Следуя инструкциям на экране, сделайте фото лицевой, а затем обратной сторон вашей ID-карты";
+
+"segmentation_general_instruction"="Приготовьте свой документ и разместите его в указанной зоне, как на примере выше.";
+"im_ready"="Я готов(а)";
+
+"segmentation_single_page_hint"="Поместите документ в указанную зону для автоматического считывания";
+"segmentation_front_side_hint"="Поместите переднюю сторону документа в указанную зону для автоматического считывания";
+"segmentation_back_side_hint"="Поместите обратную сторону документа в указанную зону для автоматического считывания";
+"segmentation_stage_success"="Документ считан успешно!";
+"segmentation_stage_success_first_page"="Передняя сторона успешно считана. Пожалуйста, переверните документ/страницу.";
+
+"no_time_seg_title"="Время на считывание документа истекло";
+"no_time_seg_descr"="Мы не смогли обнаружить документ в заданной зоне. Убедитесь, что вы выбрали правильный тип документа и он хорошо виден в камеру.";
+
+"make_photo_by_hand" = "Сделать фото вручную";
+"retry" = "Попробовать снова";
+
+"pop_sdk_title" = "К началу верификации";
+
+"cancel" = "Отмена";
+
+"fatal_error_seg_descr"="Мы не смогли сделать полное сканирование документа. Для продолжения требуется сделать фото вручную.";
+
+"contact_support" = "Обратиться в службу поддержки";
+
+"confirm" = "Подтвердить";
+
+"got_it" = "Отлично";
+"verification_in_process_title"="Ваша заявка уже находится в обработке";
+"verification_in_process_subtitle"="Это может занять некоторое время.";
+
+"good_camera_text"="снято на хорошую камеру";
+"good_doc_light_text"="хорошо освещенный";
+
+"enter_valid_exp_date"="Введите валидный срок действия документа";
+
+"choose_provider_title" = "Выберите метод верификации";
+"choose_provider_description" = "Для продолжения верификации выберите провайдера из списка доступных для вашей страны.";
+"vcheck_provider_description" = "Верификация с подгрузкой документов";
+
+"verification_expired" = "Сеанс верификации истек. Пожалуйста, попробуйте еще раз.";
+
+"doc_verification_verification_not_initialized" = "Верификация не инициализирована.";
+"doc_verification_user_interacted_completed" = "Пользователь взаимодействовал завершено.";
+"doc_verification_stage_not_found" = "Этап не найден.";
+"doc_verification_invalid_stage_type" = "Недопустимый тип этапа.";
+"doc_verification_primary_document_exists" = "Основной документ существует.";
+"doc_verification_upload_attempts_exceeded" = "Превышено количество попыток загрузки.";
+"doc_verification_invalid_document_type" = "Недопустимый тип документа.";
+"doc_verification_invalid_pages_count" = "Недопустимое количество страниц.";
+"doc_verification_invalid_files" = "Недопустимые файлы.";
+"doc_verification_photo_too_large" = "Фотография слишком большая.";
+"doc_verification_parsing_error" = "Ошибка разбора.";
+"doc_verification_invalid_page" = "Недопустимая страница.";
+"doc_verification_fraud" = "Мошенничество.";
+"doc_verification_blur" = "Размытие.";
+
+"doc_verif_camera_timeout_title" = "Мы не смогли обнаружить документ в заданной зоне";
+"doc_verif_camera_timeout_text" = "Время на считывание документа истекло. Убедитесь, что вы выбрали правильный тип документа и он хорошо виден в камеру";
+"doc_verif_not_scanned_title" = "Не получается отсканировать документ";
+"doc_verif_not_scanned_text" = "Если у вас возникли проблемы при сканировании документа, советуем пройти верификацию на другом устройстве с хорошей камерой. Также вы можете попробовать сделать обычное фото своего документа (без автоопределения документа в рамке)";
+"doc_verif_invalid_document_type_title" = "Верификация документа неуспешна";
+"doc_verif_invalid_document_type_text" = "Документ не соответствует выбранному типу. Рекомендуем повторить загрузку документа";
+"doc_verif_invalid_pages_count_title" = "Верификация документа неуспешна";
+"doc_verif_invalid_pages_count_text" = "Не корректное количество подгруженных изображений. Повторите загрузку документа";
+"doc_verif_invalid_files_title" = "Верификация документа неуспешна";
+"doc_verif_invalid_files_text" = "Загруженные фотографии документа слишком велики или имеют неверный тип файла. Пожалуйста, попробуйте еще раз.";
+"doc_verif_primary_already_exists_title" = "Другой документ ранее уже был загружен";
+"doc_verif_primary_already_exists_text" = "В рамках одной верификации отсутствует возможность загружать несколько документов. Продолжите проверку данных по ранее подгруженному документу";
+"doc_verif_upload_attempts_exceeded_title" = "Другой документ ранее уже был загружен";
+"doc_verif_upload_attempts_exceeded_text" = "В рамках однй верификации отсутствует возможность загружать несколько документов. Продолжите проверку данных по ранее подгруженному документу";
+"doc_verif_invalid_page_title" = "Верификация документа неуспешна";
+"doc_verif_invalid_page_text" = "Не пройдена проверка соответствия данных документа. Пожалуйста, загрузите корректный документ";
+"doc_verif_fraud_title" = "Обнаружено фото с экрана";
+"doc_verif_fraud_text" = "Для прохождения верификации необходимо загрузить фото оригинала документа";
+"doc_verif_blur_title" = "Неострое фото";
+"doc_verif_blur_text" = "Пожалуйста, сделайте четкое изображение документа для продолжения";
+"doc_verif_default_title" = "Верификация документа неуспешна";
+"doc_verif_default_text" = "По какой-то причине мы не смогли загрузить контент данной страницы. Попробуйте перезагрузить страницу";
+"doc_verif_print_title" = "Обнаружена копия";
+"doc_verif_print_text" = "Пожалуйста, загрузите оригинал Вашего документа";
+
+"in_process_title" = "Пожалуйста, подождите";
+"in_process_description" = "Это может занять некоторое время.";
+
+/* Default action */
+"OK" = "";
