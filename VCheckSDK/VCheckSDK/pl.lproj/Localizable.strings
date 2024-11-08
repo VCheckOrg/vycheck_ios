@@ -1,0 +1,166 @@
+
+"enter_valid_dob" = "Wprowadź datę urodzenia w formacie 'RRRR-MM-DD'";
+
+"enter_valid_doc_number" = "Proszę wpisać poprawny numer dokumentu";
+
+"enter_valid_name" = "Proszę wpisać prawidłowe imię";
+
+"enter_valid_surname" = "Proszę wpisz właściwe nazwisko";
+
+"error_make_at_least_one_photo" = "Zrób co najmniej jedno zdjęcie dokumentu";
+
+"error_make_one_photo" = "Proszę zrobić jedno zdjęcie dokumentu";
+
+"error_make_two_photos" = "Proszę zrobić wszystkie niezbędne dokumenty fotograficzne";
+
+"error_some_fields_are_empty" = "Proszę wypełnić wszystkie pola dokumentu";
+
+"line_face_obstacle" = "Trzymaj telefon na wysokości wzroku";
+
+"liveness_stage_check_face_pos" = "Trzymaj telefon na wysokości wzroku";
+
+"liveness_stage_face_left" = "Odwróć głowę w lewo";
+
+"liveness_stage_face_right" = "Odwróć głowę w prawo";
+
+"liveness_stage_face_up" = "Podnieś głowę do góry";
+
+"liveness_stage_face_down" = "Opuść głowę";
+
+"liveness_stage_open_mouth" = "Otwórz usta";
+
+"liveness_stage_blink_eyes" = "Mrugnij oczami";
+
+"photo_loaing_wait_discl" = "Proszę czekać. Zdjęcie Twojego dokumentu jest przesyłane i przetwarzane. Może to trwać od kilku sekund do minuty.";
+
+"photo_upload_title_common_back" = "Zdjęcie ostatniej strony z Twoim zdjęciem (jeśli masz wiele zdjęć w dokumencie)";
+
+"photo_upload_title_common_forward" = "Zdjęcie pierwszej strony dokumentu (z Twoim zdjęciem)";
+
+"photo_upload_title_foreign" = "Pełne rozłożenie dokumentu z Twoim zdjęciem";
+
+"photo_upload_title_id_card_back" = "Tylna strona dowodu osobistego";
+
+"photo_upload_title_id_card_forward" = "Przednia strona dowodu osobistego";
+
+"no_search_data_label" = "Brak dostępnych danych";
+
+"confident_in_doc_title" = "Jestem pewny swojego dokumentu, kontynuuj proces weryfikacji";
+
+"doc_date_placeholder" = "RRRR-MM-DD";
+
+"non_available" = "Niedostępne";
+
+"bermuda" = "Bermudy";
+
+"invalid_doc_type_desc" = "Sprawdzenie zgodności dokumentów nie powiodło się. Proszę pobrać poprawny dokument";
+
+"verif_error_desc" = "Weryfikacja dokumentu nie powiodła się";
+
+"check_doc_fields_input_message" = "Sprawdź, czy wszystkie pola dokumentu są poprawnie wypełnione";
+
+"need_camera_access_title" = "Dostęp do aparatu";
+"need_camera_access_descr" = "Należy zapewnić dostęp do aparatu w celu sfotografowania dokumentów i przeprowadzenia sesji weryfikacji twarzy.";
+"allow" = "Udostępnić";
+"decline" = "Odrzucić";
+
+"declined_camera_access" = "Odmowa dostępu do aparatu: spowoduje to, że główne funkcje produktu będą niedostępne. Aby zezwolić na dostęp do kamery, uruchom ponownie aplikację lub przejdź do Ustawień.";
+
+"proceed" = "Kontynuować";
+
+"seg_make_photo" = "Robić zdjęcie";
+"retry" = "Spróbować ponownie";
+
+"segmentation_instr_inner_passport_title"="Zrób zdjęcie paszportu obywatela";
+"segmentation_instr_foreign_passport_title"="Zrób zdjęcie paszportu";
+"segmentation_instr_id_card_title"="Zrób zdjęcie dowodu osobistego";
+
+"segmentation_instr_inner_passport_descr"="Postępując zgodnie z instrukcjami na ekranie, zrób zdjęcie całej rozkładówki paszportu (obie strony są widoczne)";
+"segmentation_instr_foreign_passport_descr"="Postępuj zgodnie z instrukcjami wyświetlanymi na ekranie, aby zrobić zdjęcie całostronicowej rozkładówki paszportu (widoczne obie strony)";
+"segmentation_instr_id_card_descr"="Postępuj zgodnie z instrukcjami wyświetlanymi na ekranie, aby zrobić zdjęcie przedniej i tylnej strony dowodu osobistego";
+
+"segmentation_general_instruction"="Przygotuj dokument i umieść go we wskazanym obszarze, jak w powyższym przykładzie.";
+"im_ready"="Jestem gotowy";
+
+"segmentation_single_page_hint"="Umieść dokument w określonej strefie do automatycznego odczytu";
+"segmentation_front_side_hint"="Umieść przednią stronę dokumentu w wyznaczonym miejscu do automatycznego odczytu";
+"segmentation_back_side_hint"="Umieść tylną stronę dokumentu w wyznaczonym miejscu do automatycznego odczytu";
+"segmentation_stage_success"="Dokument został zeskanowany pomyślnie!";
+"segmentation_stage_success_first_page"="Przednia strona została pomyślnie odczytana. Proszę odwrócić dokument/stronę.";
+
+"no_time_seg_title"="Czas przeznaczony na zeskanowanie dokumentu upłynął";
+"no_time_seg_descr"="Nie mogliśmy znaleźć dokumentu w danej strefie. Upewnij się, że wybrałeś właściwy typ dokumentu i że jest on wyraźnie widoczny w aparacie.";
+
+"make_photo_by_hand" = "Zrób zdjęcie ręcznie";
+"retry" = "Spróbuj ponownie";
+
+"pop_sdk_title" = "Do początku weryfikacji";
+
+"cancel" = "Anulować";
+
+"fatal_error_seg_descr"="Nie byliśmy w stanie wykonać pełnego skanu dokumentu. Aby kontynuować, musisz zrobić zdjęcie ręcznie.";
+
+"contact_support" = "Skontaktuj się z działem pomocy technicznej";
+
+"confirm" = "Potwierdzić";
+
+"got_it" = "Doskonale";
+"verification_in_process_title"="Twoja aplikacja już jest na etapie przetwarzania";
+"verification_in_process_subtitle"="To może zająć troche czasu.";
+
+"good_camera_text"="nakręcony dobrym aparatem";
+"good_doc_light_text"="dobrze oświetlony";
+
+"enter_valid_exp_date"="Proszę wpisać prawidłowy termin ważności dokumentu";
+
+"choose_provider_title" = "Wybierz metodę weryfikacji";
+"choose_provider_description" = "Aby kontynuować weryfikację, wybierz dostawcę z listy dostępnej dla Twojego kraju.";
+"vcheck_provider_description" = "Weryfikacja z wgrywaniem dokumentów";
+
+"verification_expired" = "Sesja weryfikacyjna wygasła. Proszę spróbuj ponownie.";
+
+"doc_verification_verification_not_initialized" = "Weryfikacja nie została zainicjowana.";
+"doc_verification_user_interacted_completed" = "Użytkownik zakończył interakcję.";
+"doc_verification_stage_not_found" = "Nie znaleziono etapu.";
+"doc_verification_invalid_stage_type" = "Nieprawidłowy typ etapu.";
+"doc_verification_primary_document_exists" = "Istnieje dokument podstawowy.";
+"doc_verification_upload_attempts_exceeded" = "Przekroczono limit prób przesłania.";
+"doc_verification_invalid_document_type" = "Nieprawidłowy typ dokumentu.";
+"doc_verification_invalid_pages_count" = "Nieprawidłowa liczba stron.";
+"doc_verification_invalid_files" = "Nieprawidłowe pliki.";
+"doc_verification_photo_too_large" = "Zdjęcie jest zbyt duże.";
+"doc_verification_parsing_error" = "Błąd analizy.";
+"doc_verification_invalid_page" = "Nieprawidłowa strona.";
+"doc_verification_fraud" = "Oszustwo.";
+"doc_verification_blur" = "Rozmycie.";
+
+"doc_verif_camera_timeout_title" = "Nie zmogliśmy znaleźć dokumentu w określonym obszarze";
+"doc_verif_camera_timeout_text" = "Czas na przetworzenie dokumentu upłynął. Upewnij się, że wybrałeś właściwy rodzaj dokumentu i że jest on wyraźnie widoczny dla kamery";
+"doc_verif_not_scanned_title" = "Nie można zeskanować dokumentu";
+"doc_verif_not_scanned_text" = "Jeśli masz problemy ze skanowaniem dokumentu, radzimy przejść weryfikację na innym urządzeniu z dobrym aparatem. Możesz także spróbować zrobić zwykłe zdjęcie swojego dokumentu (bez automatycznego wykrywania dokumentu w ramce)";
+"doc_verif_invalid_document_type_title" = "Weryfikacja dokumentu nie powiodła się";
+"doc_verif_invalid_document_type_text" = "Dokument nie pasuje do wybranego typu. Zalecamy ponowne pobranie dokumentu";
+"doc_verif_invalid_pages_count_title" = "Weryfikacja dokumentu nie powiodła się";
+"doc_verif_invalid_pages_count_text" = "Nieprawidłowa liczba przesłanych obrazów. Spróbuj ponownie przesłać dokument";
+"doc_verif_invalid_files_title" = "Weryfikacja dokumentu nie powiodła się";
+"doc_verif_invalid_files_text" = "Przesłane zdjęcia dokumentu są zbyt duże lub mają niewłaściwy typ pliku. Proszę spróbuj ponownie.";
+"doc_verif_primary_already_exists_title" = "Inny dokument został już przesłany";
+"doc_verif_primary_already_exists_text" = "W ramach jednej weryfikacji nie ma możliwości wgrania kilku dokumentów. Kontynuuj weryfikację danych względem wcześniej przesłanego dokumentu";
+"doc_verif_upload_attempts_exceeded_title" = "Inny dokument został już przesłany";
+"doc_verif_upload_attempts_exceeded_text" = "W ramach jednej weryfikacji nie ma możliwości wgrania kilku dokumentów. Kontynuuj weryfikację danych względem wcześniej przesłanego dokumentu lub zakończ proces weryfikacji na urządzeniu mobilnym";
+"doc_verif_invalid_page_title" = "Weryfikacja dokumentu nie powiodła się";
+"doc_verif_invalid_page_text" = "Nie przeszła próba zgodności dokumentów. Proszę, pobierz poprawny dokument";
+"doc_verif_fraud_title" = "Zdjęcie z ekranu wykryte";
+"doc_verif_fraud_text" = "Aby przejść weryfikację, musisz przesłać zdjęcie oryginalnego dokumentu";
+"doc_verif_blur_title" = "Rozmyte zdjęcie";
+"doc_verif_blur_text" = "Zrób proszę wyraźne zdjęcie dokumentu, aby kontynuować";
+"doc_verif_default_title" = "Weryfikacja dokumentu nie powiodła się";
+"doc_verif_default_text" = "Z jakiegoś powodu nie mogliśmy załadować zawartości tej strony. Spróbuj ponownie załadować stronę";
+"doc_verif_print_title" = "Znaleziono kopię";
+"doc_verif_print_text" = "Prześlij oryginał dokumentu";
+
+"in_process_title" = "Proszę czekać";
+"in_process_description" = "To może zająć troche czasu.";
+
+/* Default action */
+"OK" = "";
